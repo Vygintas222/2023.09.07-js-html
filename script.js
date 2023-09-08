@@ -1,7 +1,7 @@
 
 let container = document.querySelector('div')
 
-let shopName =document.createElement('h1')
+let shopName =document.createElement('h2')
 container.append(shopName)
 shopName.textContent = 'Parduotuve 1'
 
@@ -23,7 +23,7 @@ shopAdress.innerHTML = '<span>Address:</span> <a href="https://goo.gl/maps/9qJ8d
 let container2 = document.createElement('div')
 container.after(container2)
 
-let shopName2 =document.createElement('h1')
+let shopName2 =document.createElement('h2')
 container2.append(shopName2)
 shopName2.textContent = 'Parduotuve 2'
 
@@ -46,7 +46,7 @@ shopAdress2.innerHTML = '<span>Address:</span> <a href="https://goo.gl/maps/9qJ8
 let container3 = document.createElement('div')
 container2.after(container3)
 
-let shopName3 =document.createElement('h1')
+let shopName3 =document.createElement('h2')
 container3.append(shopName3)
 shopName3.textContent = 'Parduotuve 3'
 
@@ -68,7 +68,7 @@ shopAdress3.innerHTML = '<span>Address:</span> <a href="https://goo.gl/maps/9qJ8
 let container4 = document.createElement('div')
 container3.after(container4)
 
-let shopName4 =document.createElement('h1')
+let shopName4 =document.createElement('h2')
 container4.append(shopName4)
 shopName4.textContent = 'Parduotuve 4'
 
